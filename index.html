@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Pinwheel</title>
+	<style>
+	html {
+		  background-color: #023E54; 
+		  background-image: url(images/fallback-gradient.png); 
+		  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#023E54), to(#10AAC0));
+		  background-image: -webkit-linear-gradient(top, #023E54, #10AAC0); 
+		  background-image: -moz-linear-gradient(top, #023E54, #10AAC0);
+		  background-image: -o-linear-gradient(top, #023E54, #10AAC0);
+		  min-height: 100%;
+		  height: auto;
+		}
+		.scrollItem{
+		  display:inline;
+		  margin:auto;
+		}
+		.scrollItem img{
+		  vertical-align: middle;
+		  border:1px solid white;
+		  border-radius: 10px;
+		}
+		.scrollFeature{
+		  position:relative;
+		  z-index: 10;
+		}
+		.scrollFeature img{
+		  height: 300px;
+		  margin: 20px -10px 20px -10px;
+		}
+		#leftArr:hover{
+		  font-size: 40px;
+		}
+</style>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+	<script src="https://fb.me/react-0.13.3.js"></script>
+   <script src="https://fb.me/JSXTransformer-0.13.3.js"></script>
+   <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class = "buffer"></div>
+	<div id = "react"></div>
+	<script type="text/jsx" src="js/pinwheel.jsx"></script>
+
+
+</body>
+</html>
